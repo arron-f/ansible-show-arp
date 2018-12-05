@@ -1,5 +1,6 @@
 ---
-- hosts: all
+- name: A IOS version
+  hosts: all
   gather_facts: no
   tasks:
   - raw: "show arp"
